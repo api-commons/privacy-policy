@@ -1,0 +1,53 @@
+# API Commons — Privacy Policy, illustrative example
+#
+# Example Weather API is fictional. These clauses are
+# illustrative and are not the terms of any real company.
+
+privacy_policy: 0.1.0
+provider: Example Weather API
+aid: example-weather-api
+url: https://weather.example.com/legal/privacy
+source_date: '2026-11-09'
+x-apis-io-derivation:
+  synthetic: false
+  method: harvested
+  read: '2026-11-09'
+  tool: engine/business/harvest-business.py
+  model: claude-haiku-4-5
+role:
+  value: processor
+  text: When we process personal data on behalf of our API customers, we act as a data processor.
+data_categories:
+- category: contact
+  text: We collect your name and email address when you create a developer account.
+- category: location
+  text: API requests may include latitude and longitude coordinates.
+purposes:
+- purpose: Service delivery
+  text: We use request data only to return the forecast you asked for.
+retention:
+- scope: API request logs
+  period: 90 days
+  text: API request logs are retained for 90 days.
+residency:
+- region: United States
+  text: Customer data is stored in data centers located in the United States.
+transfers:
+- mechanism: SCC
+  text: Transfers from the EEA rely on the Standard Contractual Clauses.
+subprocessors:
+  url: https://weather.example.com/legal/subprocessors
+  text: A current list of subprocessors is available on our subprocessors page.
+dpa:
+  available: true
+  url: https://weather.example.com/legal/dpa
+  text: Our Data Processing Addendum is available to all customers.
+deletion:
+  route: privacy@weather.example.com
+  text: To request deletion of your data, email privacy@weather.example.com.
+rights:
+- right: access
+  text: You have the right to access the personal data we hold about you.
+sale_or_sharing:
+  stance: prohibited
+  text: We do not sell your personal information.
