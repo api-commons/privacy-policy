@@ -17,7 +17,7 @@ consumer can compare providers on the terms rather than on the marketing.
 
 - **[privacy-policy-json-schema.yml](privacy-policy-json-schema.yml)** — the JSON Schema (2020-12).
 - **[privacy-policy-example-1.yml](privacy-policy-example-1.yml)** — a standalone document, as written to `all/<slug>/privacy/<slug>-privacy-policy.yml`.
-- **[privacy-policy-example-2.yml](privacy-policy-example-2.yml)** — the same document inside the `PrivacyPolicy` apis.yml property envelope.
+- **[privacy-policy-example-2.yml](privacy-policy-example-2.yml)** — the same document inside the `DataProcessing` apis.yml property envelope.
 - **[validate.py](validate.py)** — validates any document against the schema.
 
 Both examples describe **Example Weather API**, a fictional provider. The clauses are illustrative and are
